@@ -217,20 +217,52 @@ function GithubSync() {
     error: "is-error",
   }[status.kind] || "is-idle";
 
+  // Track unsaved changes
+  const [lastSavedSnapshot, setLastSavedSnapshot] = React.useState(null);
+  const currentSnapshot = JSON.stringify(form.data);
+  const hasUnsaved = lastSavedSnapshot !== null && lastSavedSnapshot !== currentSnapshot;
+
+  React.useEffect(() => {
+    if (status.kind === "ok" && status.msg.startsWith("Saved")) {
+      setLastSavedSnapshot(JSON.stringify(form.data));
+    }
+  }, [status]);
+
   return (
     <React.Fragment>
-      {/* Floating launcher */}
-      <button className="gh-launcher" onClick={() => setOpen((o) => !o)} aria-label="GitHub sync">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-          <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        <span className="gh-launcher-text">
-          {status.kind === "saving" ? "Saving…" :
-           status.kind === "loading" ? "Loading…" :
-           "GitHub"}
-        </span>
-        <span className={`gh-dot ${statusClass}`}></span>
-      </button>
+      {/* Compound launcher: primary Save + menu */}
+      <div className="gh-launcher-group">
+        <button
+          className="gh-save-btn"
+          onClick={isConfigured ? doSave : () => { setOpen(true); setTab("settings"); }}
+          disabled={status.kind === "saving"}
+          aria-label={isConfigured ? "Save to GitHub" : "Configure GitHub"}
+          title={isConfigured ? "Save to GitHub (⌘/Ctrl+S)" : "Set up GitHub sync"}
+        >
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M2 1.5A1.5 1.5 0 013.5 0h8.379a1.5 1.5 0 011.06.44l2.122 2.12A1.5 1.5 0 0116 3.622V14.5a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 14.5v-13zM3.5 1a.5.5 0 00-.5.5V6h10V1.5a.5.5 0 00-.146-.354L11.354 1H3.5zM3 7v8h10V7H3zm2 1h6v1H5V8zm0 2h6v1H5v-1z"/>
+          </svg>
+          <span className="gh-save-text">
+            {status.kind === "saving" ? "Saving…" :
+             !isConfigured ? "Set up sync" :
+             hasUnsaved ? "Save changes" :
+             lastSavedSnapshot !== null ? "Saved" :
+             "Save to GitHub"}
+          </span>
+          {hasUnsaved && isConfigured && <span className="gh-unsaved-dot" aria-label="unsaved changes"></span>}
+        </button>
+        <button
+          className="gh-menu-btn"
+          onClick={() => setOpen((o) => !o)}
+          aria-label="Open sync panel"
+          title="Sync settings, load past days"
+        >
+          <span className={`gh-dot ${statusClass}`}></span>
+          <svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+            <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </button>
+      </div>
 
       {open && (
         <div className="gh-panel" role="dialog" aria-label="GitHub sync">

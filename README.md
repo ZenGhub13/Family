@@ -1,45 +1,54 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Lucas Daily — A complete record of today</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <template id="__bundler_thumbnail" data-bg-color="#f7f3ec">
-    <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-      <rect width="1200" height="800" fill="#f7f3ec"/>
-      <line x1="120" y1="220" x2="1080" y2="220" stroke="#2a2622" stroke-width="2"/>
-      <text x="120" y="190" font-family="Georgia, serif" font-style="italic" font-size="120" fill="#2a2622">Lucas</text>
-      <text x="540" y="190" font-family="Georgia, serif" font-style="italic" font-size="120" fill="#9a4a2a">&amp;</text>
-      <text x="640" y="190" font-family="Georgia, serif" font-style="italic" font-size="120" fill="#2a2622">the day</text>
-      <rect x="120" y="280" width="320" height="6" fill="#9a4a2a"/>
-      <rect x="120" y="320" width="960" height="2" fill="#cfc8bd"/>
-      <rect x="120" y="360" width="960" height="2" fill="#cfc8bd"/>
-      <rect x="120" y="400" width="640" height="2" fill="#cfc8bd"/>
-      <rect x="120" y="460" width="280" height="180" fill="none" stroke="#cfc8bd" stroke-width="2"/>
-      <rect x="460" y="460" width="280" height="180" fill="none" stroke="#cfc8bd" stroke-width="2"/>
-      <rect x="800" y="460" width="280" height="180" fill="none" stroke="#cfc8bd" stroke-width="2"/>
-    </svg>
-  </template>
-</head>
-<body>
-  <div id="root"></div>
+# Hosting Lucas's daily sheet on GitHub
 
-  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+This sheet is a self-contained HTML page. You can host it free on GitHub Pages and have it save every filled-in day back to the same repo as a dated JSON file.
 
-  <script type="text/babel" src="tweaks-panel.jsx"></script>
-  <script type="text/babel" src="components/Schedule.jsx"></script>
-  <script type="text/babel" src="components/Feeding.jsx"></script>
-  <script type="text/babel" src="components/Mood.jsx"></script>
-  <script type="text/babel" src="components/Milestones.jsx"></script>
-  <script type="text/babel" src="components/Outdoor.jsx"></script>
-  <script type="text/babel" src="components/Meds.jsx"></script>
-  <script type="text/babel" src="components/Handoff.jsx"></script>
-  <script type="text/babel" src="app.jsx"></script>
-</body>
-</html>
+## 1. Create a repo
+
+1. Make a new GitHub repo, e.g. `lucas-daily`. It can be **private**.
+2. Drag every file from this `deploy/` folder into the repo root:
+   - `index.html`
+   - `styles.css`
+   - `app.jsx`
+   - `tweaks-panel.jsx`
+   - the entire `components/` folder
+   - `README.md` (this file — optional, just nice to have)
+
+## 2. Turn on GitHub Pages
+
+- Settings → Pages → **Source: Deploy from a branch**, Branch: `main` (root).
+- Wait ~30 seconds, then open the Pages URL — it'll look like `https://<your-username>.github.io/<repo>/`.
+
+## 3. Create a fine-grained access token
+
+GitHub → Settings → Developer settings → **Personal access tokens → Fine-grained tokens → Generate new token**:
+
+- **Repository access:** Only select repositories → choose `lucas-daily`.
+- **Repository permissions → Contents:** Read and write.
+- Expiration: pick what you're comfortable with (90 days is a good cadence).
+
+Copy the token (`github_pat_…`).
+
+## 4. Configure the sheet in the browser
+
+1. Open the hosted page.
+2. Click the **GitHub** pill in the top-right.
+3. Open the **Settings** tab and fill in:
+   - Owner: your GitHub username
+   - Repository: `lucas-daily`
+   - Branch: `main`
+   - Folder: `entries`
+   - Token: paste the PAT
+4. Switch to the **Save** tab and click **Save to GitHub** (or press ⌘/Ctrl + S).
+
+Each save creates or overwrites `entries/YYYY-MM-DD.json` in the repo. Use the **Load** tab to browse and reload past days.
+
+## Security notes
+
+- The token lives in this browser's `localStorage` only. It is never committed to the repo.
+- Anyone with access to this browser profile can read it. Don't enter your token on shared computers.
+- Use the **Forget token** button (Settings → Forget my token) when you're done on a borrowed device.
+- The token is scoped to one repo with Contents permission only — even if leaked, it can't touch the rest of your GitHub.
+
+## Sharing between parents/caregivers
+
+Each person sets up the page with their own browser and their own token. They all read/write the same JSON files, so the latest save wins for a given day. Try to coordinate (one person updates per shift, then hands off).
