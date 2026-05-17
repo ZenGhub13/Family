@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-17T01:45:05.924Z",
+  "savedAt": "2026-05-17T01:52:44.732Z",
   "date": "2026-05-16",
   "baby": "Lucas",
   "version": 1,
@@ -29,6 +29,7 @@
     "feed.0.amount": "1 jar",
     "feed.0.notes": "Beachnut prune and pear",
     "sched.8.actual": "",
-    "sched.8.done": true
+    "sched.8.done": true,
+    "meta.wake": "8:20am"
   }
 }
