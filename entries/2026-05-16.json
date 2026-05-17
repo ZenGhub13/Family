@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-17T01:37:06.776Z",
+  "savedAt": "2026-05-17T01:45:05.924Z",
   "date": "2026-05-16",
   "baby": "Lucas",
   "version": 1,
@@ -17,6 +17,18 @@
     "mood.Evening.pick": "fussy",
     "mood.Morning.pick": "bright",
     "mood.Midday.pick": "calm",
-    "mood.Afternoon.pick": "calm"
+    "mood.Afternoon.pick": "calm",
+    "feed.3.type": "Milk",
+    "feed.3.amount": "15 oz",
+    "feed.3.notes": "Kendamil formula",
+    "feed.4.amount": "7 oz",
+    "feed.4.notes": "Horizon milk",
+    "feed.5.amount": "2 oz",
+    "feed.5.notes": "Dry cereal mixed with kendamil formula",
+    "feed.0.type": "Solid",
+    "feed.0.amount": "1 jar",
+    "feed.0.notes": "Beachnut prune and pear",
+    "sched.8.actual": "",
+    "sched.8.done": true
   }
 }
