@@ -1,9 +1,10 @@
 {
-  "savedAt": "2026-05-17T01:24:49.324Z",
+  "savedAt": "2026-05-17T01:27:57.167Z",
   "date": "2026-05-16",
   "baby": "Lucas",
   "version": 1,
   "data": {
-    "meta.filedBy": "Mom"
+    "meta.filedBy": "Mom",
+    "sched.0.done": true
   }
 }
