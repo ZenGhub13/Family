@@ -1,0 +1,23 @@
+{
+  "savedAt": "2026-05-17T15:13:54.655Z",
+  "date": "2026-05-17",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "meta.filedBy": "Mom",
+    "sched.0.done": true,
+    "sched.12.done": true,
+    "sched.13.done": true,
+    "feed.1.time": "",
+    "feed.1.amount": "2 tbsp",
+    "feed.1.notes": "Mashed potatoes ",
+    "feed.2.amount": "3/4",
+    "feed.2.type": "Solid",
+    "feed.2.notes": "Egg",
+    "sched.1.actual": "8:30 am 1T Greek yogurt, 2T sweet potatoes, 1T cottage cheese, 1 once upon a farm pouch (rasp-Peary kale) ",
+    "sched.2.actual": "9:45am 5 oz, 2oz whole milk, 3 oz formula ",
+    "sched.0.actual": "8:10 am ",
+    "sched.1.done": true,
+    "sched.2.done": true
+  }
+}
