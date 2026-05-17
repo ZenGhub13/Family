@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-17T01:29:13.171Z",
+  "savedAt": "2026-05-17T01:30:49.264Z",
   "date": "2026-05-16",
   "baby": "Lucas",
   "version": 1,
@@ -7,6 +7,9 @@
     "meta.filedBy": "Mom",
     "sched.0.done": true,
     "sched.12.done": true,
-    "sched.13.done": true
+    "sched.13.done": true,
+    "feed.1.time": "",
+    "feed.1.amount": "2 tbsp",
+    "feed.1.notes": "Mashed potatoes "
   }
 }
