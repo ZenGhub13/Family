@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-17T01:33:03.296Z",
+  "savedAt": "2026-05-17T01:37:06.776Z",
   "date": "2026-05-16",
   "baby": "Lucas",
   "version": 1,
@@ -13,6 +13,10 @@
     "feed.1.notes": "Mashed potatoes ",
     "feed.2.amount": "3/4",
     "feed.2.type": "Solid",
-    "feed.2.notes": "Egg"
+    "feed.2.notes": "Egg",
+    "mood.Evening.pick": "fussy",
+    "mood.Morning.pick": "bright",
+    "mood.Midday.pick": "calm",
+    "mood.Afternoon.pick": "calm"
   }
 }
