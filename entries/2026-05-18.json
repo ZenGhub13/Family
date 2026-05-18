@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-18T15:11:59.437Z",
+  "savedAt": "2026-05-18T15:13:01.351Z",
   "date": "2026-05-18",
   "baby": "Lucas",
   "version": 1,
@@ -28,6 +28,9 @@
     "handoff.wins": "Took 1 year old pictures ",
     "feed.5.type": "Snack",
     "feed.5.notes": "½ once upon a farm tractor wheel",
-    "feed.6.notes": "3 oz formula, 3 oz whole milk "
+    "feed.6.notes": "3 oz formula, 3 oz whole milk ",
+    "feed.extraRows": 1,
+    "feed.7.type": "Solid",
+    "feed.7.notes": "3T porridge broccoli and salmon.  1T steamed broccoli, ½ T salmon "
   }
 }
