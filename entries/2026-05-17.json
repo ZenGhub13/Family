@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-17T21:40:29.481Z",
+  "savedAt": "2026-05-18T15:16:16.877Z",
   "date": "2026-05-17",
   "baby": "Lucas",
   "version": 1,
@@ -25,6 +25,12 @@
     "feed.4.notes": "3 oz formula 2 oz whole milk ",
     "feed.allergen.Egg": false,
     "handoff.hard": "Missed a morning nap but had a good afternoon nap.  ",
-    "handoff.wins": "Took 1 year old pictures "
+    "handoff.wins": "Took 1 year old pictures ",
+    "meta.date": "2026-05-17",
+    "feed.5.notes": "3T porridge, broccoli, and salmon. 1T broccoli, ½ T salmon ",
+    "feed.6.notes": "3 oz formula, 3 oz whole milk ",
+    "feed.extraRows": 1,
+    "feed.7.type": "Snack",
+    "feed.7.notes": "½ once upon a farm tractor wheel"
   }
 }
