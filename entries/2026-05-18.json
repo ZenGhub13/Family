@@ -1,12 +1,33 @@
 {
-  "savedAt": "2026-05-18T15:11:16.628Z",
+  "savedAt": "2026-05-18T15:11:59.437Z",
   "date": "2026-05-18",
   "baby": "Lucas",
   "version": 1,
   "data": {
+    "meta.filedBy": "Mom",
     "sched.0.done": true,
-    "sched.0.actual": "7 am ",
-    "sched.4.actual": "10 am- ",
-    "feed.0.notes": "½ egg, ½ once upon a farm tractor wheel "
+    "sched.12.done": false,
+    "sched.13.done": false,
+    "feed.1.time": "",
+    "feed.1.amount": "",
+    "feed.1.notes": "1T Greek yogurt, 2T sweet potato, 1T cottage cheese, 1 Raspberries-Peary Kale once upon a farm pouch ",
+    "feed.2.amount": "",
+    "feed.2.type": "Solid",
+    "feed.2.notes": "2T guacamole,½ T roast pork, ½ T eggs ",
+    "sched.1.actual": "8:30 am 1T Greek yogurt, 2T sweet potatoes, 1T cottage cheese, 1 once upon a farm pouch (rasp-Peary kale) ",
+    "sched.2.actual": "9:45am 5 oz, 2oz whole milk, 3 oz formula ",
+    "sched.0.actual": "8:10 am ",
+    "sched.1.done": true,
+    "sched.2.done": true,
+    "feed.0.notes": "3 oz formula 2 oz whole milk ",
+    "feed.3.type": "Milk",
+    "feed.3.notes": "3 oz formula 2 oz whole milk ",
+    "feed.4.notes": "3 oz formula 2 oz whole milk ",
+    "feed.allergen.Egg": false,
+    "handoff.hard": "Missed a morning nap but had a good afternoon nap.  ",
+    "handoff.wins": "Took 1 year old pictures ",
+    "feed.5.type": "Snack",
+    "feed.5.notes": "½ once upon a farm tractor wheel",
+    "feed.6.notes": "3 oz formula, 3 oz whole milk "
   }
 }
