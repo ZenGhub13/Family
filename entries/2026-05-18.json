@@ -1,11 +1,12 @@
 {
-  "savedAt": "2026-05-18T15:09:57.787Z",
+  "savedAt": "2026-05-18T15:11:16.628Z",
   "date": "2026-05-18",
   "baby": "Lucas",
   "version": 1,
   "data": {
     "sched.0.done": true,
     "sched.0.actual": "7 am ",
-    "sched.4.actual": "10 am- "
+    "sched.4.actual": "10 am- ",
+    "feed.0.notes": "½ egg, ½ once upon a farm tractor wheel "
   }
 }
