@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-19T15:02:09.436Z",
+  "savedAt": "2026-05-19T17:54:25.694Z",
   "date": "2026-05-19",
   "baby": "Lucas",
   "version": 1,
@@ -8,10 +8,12 @@
     "feed.0.notes": "3 oz formula 2 oz whole milk ",
     "feed.1.notes": "1 cerebelly granola bar, Handful of once upon a farm coconut, banana, strawberry melts and Amara mango/carrot melts ",
     "feed.1.type": "Snack",
-    "sched.4.actual": "10 am ",
+    "sched.4.actual": "10 am- noon ",
     "feed.2.notes": "1T yogurt and strawberries, 1 T birthday cake ",
     "feed.3.type": "Milk",
     "feed.2.type": "Solid",
-    "feed.3.notes": "3 oz whole milk, 2 oz formula "
+    "feed.3.notes": "3 oz whole milk, 2 oz formula ",
+    "feed.4.type": "Solid",
+    "feed.4.notes": "1T sweet potato, 1T butternut squash, 1T cottage cheese, 1 Apple strawberry spinach Kirkland pouch "
   }
 }
