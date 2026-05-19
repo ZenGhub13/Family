@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-18T15:19:30.900Z",
+  "savedAt": "2026-05-19T13:15:16.446Z",
   "date": "2026-05-18",
   "baby": "Lucas",
   "version": 1,
@@ -7,10 +7,22 @@
     "sched.0.done": true,
     "sched.0.actual": "7 am ",
     "sched.2.actual": "",
-    "sched.4.actual": "10 am",
+    "sched.4.actual": "10 am-11:45 ",
     "feed.0.notes": "3 oz formula 2 oz whole milk ",
-    "feed.1.notes": "½ egg ½ pouch Peary-blueberry spinach( once upon a farm) ",
+    "feed.1.notes": "½ egg",
     "feed.2.type": "Snack",
-    "feed.2.notes": "Once upon a farm tractor wheel "
+    "feed.2.notes": "1/2 Once upon a farm tractor wheel ",
+    "meta.date": "2026-05-18",
+    "sched.6.actual": "12:15 ",
+    "sched.8.actual": "3-4",
+    "sched.13.actual": "8 pm ",
+    "feed.3.notes": "3T sweet potato, 1 T cottage cheese ",
+    "feed.4.type": "Solid",
+    "feed.4.notes": "1 pouch Peary-blueberry spinach (once upon a farm)",
+    "feed.5.notes": "4T congee, broccoli, salmon 2T birthday cake",
+    "feed.6.notes": "3 oz formula 2 oz whole milk ",
+    "feed.extraRows": 2,
+    "feed.7.notes": "3 oz formula 3 oz whole milk ",
+    "feed.8.notes": "2oz formula 1oz whole milk "
   }
 }
