@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-19T17:54:25.694Z",
+  "savedAt": "2026-05-20T02:05:08.847Z",
   "date": "2026-05-19",
   "baby": "Lucas",
   "version": 1,
@@ -14,6 +14,12 @@
     "feed.2.type": "Solid",
     "feed.3.notes": "3 oz whole milk, 2 oz formula ",
     "feed.4.type": "Solid",
-    "feed.4.notes": "1T sweet potato, 1T butternut squash, 1T cottage cheese, 1 Apple strawberry spinach Kirkland pouch "
+    "feed.4.notes": "1T sweet potato, 1T butternut squash, 1T cottage cheese, 1 Apple strawberry spinach Kirkland pouch ",
+    "feed.5.notes": "2T birthday cake",
+    "feed.6.type": "Solid",
+    "feed.5.type": "Snack",
+    "feed.6.notes": "3T cereal 1T prune and pear puree",
+    "feed.extraRows": 1,
+    "feed.7.notes": "4 oz formula 2oz whole milk "
   }
 }
