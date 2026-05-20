@@ -1,0 +1,14 @@
+{
+  "savedAt": "2026-05-20T13:52:56.475Z",
+  "date": "2026-05-20",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "meta.wake": "7",
+    "feed.0.notes": "4 oz whole milk 2oz formula ",
+    "feed.1.notes": "1T egg, 1T prune and pear puree",
+    "feed.2.type": "Snack",
+    "feed.2.notes": "1 cerebelly granola bar ",
+    "feed.3.type": "Milk"
+  }
+}
