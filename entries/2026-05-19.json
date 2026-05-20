@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-20T02:05:08.847Z",
+  "savedAt": "2026-05-20T03:36:03.649Z",
   "date": "2026-05-19",
   "baby": "Lucas",
   "version": 1,
@@ -19,7 +19,8 @@
     "feed.6.type": "Solid",
     "feed.5.type": "Snack",
     "feed.6.notes": "3T cereal 1T prune and pear puree",
-    "feed.extraRows": 1,
-    "feed.7.notes": "4 oz formula 2oz whole milk "
+    "feed.extraRows": 2,
+    "feed.7.notes": "4 oz formula 2oz whole milk ",
+    "feed.8.notes": "3oz formula 2 oz whole milk"
   }
 }
