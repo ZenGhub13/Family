@@ -1,11 +1,19 @@
 {
-  "savedAt": "2026-05-24T14:34:33.598Z",
+  "savedAt": "2026-05-24T20:06:32.844Z",
   "date": "2026-05-24",
   "baby": "Lucas",
   "version": 1,
   "data": {
     "meta.wake": "08:00am",
     "meta.moodWord": "Bright",
-    "sched.0.done": true
+    "sched.0.done": true,
+    "feed.0.notes": "3 oz whole milk 3 oz formula ",
+    "feed.1.notes": "2 oz formula 3oz whole milk ",
+    "feed.2.notes": "1.5 T cereal ",
+    "feed.1.type": "Milk",
+    "feed.2.type": "Snack",
+    "feed.4.type": "Solid",
+    "feed.4.notes": "1T sweet potato 1T butternut squash 1T cottage cheese 1 Kirkland pouch ",
+    "feed.3.notes": "½ T eggs, 2 muffins "
   }
 }
