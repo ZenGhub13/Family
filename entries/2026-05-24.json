@@ -1,0 +1,11 @@
+{
+  "savedAt": "2026-05-24T14:34:33.598Z",
+  "date": "2026-05-24",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "meta.wake": "08:00am",
+    "meta.moodWord": "Bright",
+    "sched.0.done": true
+  }
+}
