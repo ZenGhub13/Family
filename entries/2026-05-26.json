@@ -1,0 +1,22 @@
+{
+  "savedAt": "2026-05-27T02:19:51.935Z",
+  "date": "2026-05-26",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "sched.0.actual": "6 am ",
+    "sched.4.actual": "9:00-9:30 snooze in the car ",
+    "feed.0.notes": "4 oz whole milk 2 oz formula (only drank 5 oz) ",
+    "feed.1.notes": "1 egg and ½ avocado ",
+    "feed.2.notes": "4 oz whole milk 1 oz formula (only drank 3 oz) ",
+    "feed.3.notes": "1T cottage cheese, 1T Japanese sweet potato 1T butternut squash ",
+    "feed.4.notes": "5 oz whole milk, 1oz formula ",
+    "feed.5.notes": "1 Kirkland Apple, spinach and strawberry pouch ",
+    "feed.6.type": "Solid",
+    "feed.6.notes": "3 T cereal, 2 T chicken ",
+    "feed.extraRows": 1,
+    "feed.7.notes": "5 oz whole milk, 1oz formula ",
+    "sched.8.actual": "2:30-4:30 ",
+    "handoff.hard": "1 year shots today "
+  }
+}
