@@ -1,0 +1,16 @@
+{
+  "savedAt": "2026-06-02T01:58:57.570Z",
+  "date": "2026-05-31",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "meta.date": "2026-05-31",
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "1 tablespoon chicken, 1.5 Tablespoons sweet potato, .5 tablespoons carrots",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.4.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.6.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.3.notes": ".5 Tablespoon chicken",
+    "feed.5.notes": "1 tablespoon black cod, .5 Tablespoons salted spinach "
+  }
+}
