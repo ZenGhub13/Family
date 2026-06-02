@@ -1,11 +1,13 @@
 {
-  "savedAt": "2026-06-02T12:46:25.398Z",
+  "savedAt": "2026-06-02T16:43:31.552Z",
   "date": "2026-06-02",
   "baby": "Lucas",
   "version": 1,
   "data": {
     "sched.0.actual": "6:00",
     "feed.0.notes": "4 oz whole milk, 1 oz formula.  Ate 4 oz ",
-    "feed.1.notes": "1 tablespoon egg, 1 tablespoon cerebelly apple spinach sweet potato puree with miralax "
+    "feed.1.notes": "1 tablespoon egg, 1 tablespoon cerebelly apple spinach sweet potato puree with miralax ",
+    "sched.4.actual": "Car nap for 30 minutes before music class ",
+    "sched.8.actual": ""
   }
 }
