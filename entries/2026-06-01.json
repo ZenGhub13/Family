@@ -1,7 +1,15 @@
 {
-  "savedAt": "2026-06-01T14:42:27.523Z",
+  "savedAt": "2026-06-02T02:01:19.091Z",
   "date": "2026-06-01",
   "baby": "Lucas",
   "version": 1,
-  "data": {}
+  "data": {
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.4.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.6.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "1.5 eggs, 1 tablespoon avocado ",
+    "feed.3.notes": "1 tablespoon chicken, 1T sweet potato ",
+    "feed.5.notes": "1 tablespoon salmon, 1 tablespoon broccoli, 1 tablespoon cereal "
+  }
 }
