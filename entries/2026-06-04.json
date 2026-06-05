@@ -1,7 +1,21 @@
 {
-  "savedAt": "2026-06-05T02:38:36.146Z",
+  "savedAt": "2026-06-05T02:45:18.415Z",
   "date": "2026-06-04",
   "baby": "Lucas",
   "version": 1,
-  "data": {}
+  "data": {
+    "sched.0.actual": "6:30 am ",
+    "sched.4.actual": "10 mins in car on the way home from gymnastics ",
+    "sched.8.actual": "2 hour nap in crib ",
+    "feed.0.notes": "4 oz whole milk. 1 oz formula ",
+    "feed.4.notes": "4 oz whole milk. 1 oz formula ",
+    "feed.6.notes": "4 oz whole milk. 1 oz formula ",
+    "feed.2.notes": "4 oz whole milk. 1 oz formula (Ate 4 oz) ",
+    "feed.1.notes": "1 tablespoon egg ",
+    "feed.5.notes": "1 tablespoon chicken",
+    "feed.3.notes": "1 tablespoon once upon a farm pouch, apple, cherry elderberry  ½ cerebelly strawberry and date bar   ½ once upon a farm tractor wheel ",
+    "feed.extraRows": 1,
+    "feed.7.type": "Solid",
+    "feed.7.notes": "2 Tablespoons black cod, 1 T butternut squash, 1 tablespoon hummus, 3 tablespoons cereal, 1 tablespoon sweet potato "
+  }
 }
