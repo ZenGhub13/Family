@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T03:57:01.741Z",
+  "savedAt": "2026-06-07T03:58:23.511Z",
   "date": "2026-06-05",
   "baby": "Lucas",
   "version": 1,
@@ -22,7 +22,7 @@
     "feed.5.notes": "Rotisserie chicken",
     "feed.6.amount": "1 tbsp",
     "feed.6.notes": "Sweet potato",
-    "feed.extraRows": 3,
+    "feed.extraRows": 4,
     "feed.7.amount": "1.5 tbsp",
     "feed.7.notes": "Black cod",
     "feed.8.amount": "1 tbsp",
@@ -33,6 +33,9 @@
     "feed.7.type": "Solid",
     "feed.9.type": "Solid",
     "feed.8.type": "Solid",
-    "feed.4.type": "Solid"
+    "feed.4.type": "Solid",
+    "feed.10.type": "Solid",
+    "feed.10.amount": "3 tbsp",
+    "feed.10.notes": "Cereal mixed with whole milk"
   }
 }
