@@ -1,0 +1,24 @@
+{
+  "savedAt": "2026-06-09T02:33:46.305Z",
+  "date": "2026-06-08",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "sched.0.actual": "7:30 am",
+    "sched.4.actual": "Only 1 nap today, 12:40-2:40",
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.3.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.type": "Milk",
+    "feed.3.type": "Milk",
+    "feed.4.type": "Solid",
+    "feed.4.notes": "1.5 sourdough discard pancakes, 1 Kirkland apple spinach strawberry pouch ",
+    "feed.5.notes": "2 tablespoons white fish porridge ",
+    "feed.6.notes": "4 tablespoons shepherds pie, 2 tablespoons steamed broccoli ",
+    "feed.extraRows": 1,
+    "feed.7.type": "Snack",
+    "feed.6.type": "Solid",
+    "feed.7.notes": ".5 once upon a farm tractor wheel, 1 serving Amara carrot mango melts "
+  }
+}
