@@ -1,0 +1,13 @@
+{
+  "savedAt": "2026-06-09T02:42:59.597Z",
+  "date": "2026-06-07",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "meta.date": "2026-06-07",
+    "feed.0.amount": "4oz",
+    "feed.0.notes": "Kendamil Formula",
+    "feed.1.amount": "16oz",
+    "feed.1.notes": "Whole Milk"
+  }
+}
