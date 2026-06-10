@@ -1,0 +1,26 @@
+{
+  "savedAt": "2026-06-10T01:32:18.251Z",
+  "date": "2026-06-09",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "sched.0.actual": "8:00 amb",
+    "sched.4.actual": "1 nap, 3 hours ",
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.3.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.type": "Milk",
+    "feed.3.type": "Milk",
+    "feed.4.type": "Solid",
+    "feed.4.notes": "2 sourdough discard pancakes, 1 tablespoon yogurt ",
+    "feed.5.notes": "2 tablespoons chicken, 1 tablespoon sweet potato and cottage cheese ",
+    "feed.6.type": "Solid",
+    "feed.6.notes": "2 tablespoons congee with white fish, 2 tablespoons steamed cauliflower ",
+    "feed.extraRows": 2,
+    "feed.7.type": "Snack",
+    "feed.7.notes": "1 serving once upon a farm berry coconut melts ",
+    "feed.8.type": "Snack",
+    "feed.8.notes": ".5 once upon a farm tractor wheel, 1 cerebelly strawberry date granola bar "
+  }
+}
