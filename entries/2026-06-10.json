@@ -1,0 +1,11 @@
+{
+  "savedAt": "2026-06-10T12:51:42.167Z",
+  "date": "2026-06-10",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "sched.0.actual": "7 am ",
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "1 egg, 2 oz smashed avocado, 2 mini banana muffins "
+  }
+}
