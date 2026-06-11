@@ -1,0 +1,13 @@
+{
+  "savedAt": "2026-06-11T18:35:14.780Z",
+  "date": "2026-06-11",
+  "baby": "Lucas",
+  "version": 1,
+  "data": {
+    "sched.0.actual": "8 am ",
+    "feed.0.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.1.notes": "1 sourdough discard pancake, ",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.3.notes": "1 tablespoon chicken, 1 tablespoon cauliflower, 1 tablespoon broccoli"
+  }
+}
