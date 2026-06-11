@@ -1,11 +1,20 @@
 {
-  "savedAt": "2026-06-10T12:51:42.167Z",
+  "savedAt": "2026-06-11T02:17:36.389Z",
   "date": "2026-06-10",
   "baby": "Lucas",
   "version": 1,
   "data": {
     "sched.0.actual": "7 am ",
     "feed.0.notes": "4 oz whole milk, 1 oz formula ",
-    "feed.1.notes": "1 egg, 2 oz smashed avocado, 2 mini banana muffins "
+    "feed.1.notes": "1 egg, 2 oz smashed avocado, 2 mini banana muffins ",
+    "sched.4.actual": "1 nap, 3 hours ",
+    "feed.2.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.4.notes": "4 oz whole milk, 1 oz formula ",
+    "feed.6.notes": "4 oz whole milk, 1 oz formula (Ate 4.5 oz) ",
+    "feed.3.notes": "2 tablespoons sweet potato and cottage cheese, 1 tablespoon salmon ",
+    "feed.5.notes": "3 tablespoons cereal, 3 tablespoons shepherds pie, 2 tablespoons mashed potatoes ",
+    "feed.extraRows": 1,
+    "feed.7.type": "Snack",
+    "feed.7.notes": "1 serving once upon a farm mixed berry coconut melts, 1 tractor wheel, .5 cerebelly granola bar, 1 banana muffin "
   }
 }
