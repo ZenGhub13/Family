@@ -1,30 +1,7 @@
 {
-  "savedAt": "2026-06-15T01:22:01.005Z",
+  "savedAt": "2026-06-15T01:22:25.167Z",
   "date": "2026-06-14",
   "baby": "Lucas",
   "version": 1,
-  "data": {
-    "meta.date": "2026-06-14",
-    "feed.0.amount": "4oz",
-    "feed.0.notes": "Kendamil Formula",
-    "feed.1.amount": "16oz",
-    "feed.1.notes": "Whole Milk",
-    "feed.2.amount": "3 tbsp",
-    "feed.2.notes": "Sourdough discard pancake",
-    "feed.3.amount": "1 tbsp",
-    "feed.3.notes": "Rotisserie chicken",
-    "feed.4.amount": "1 tbsp",
-    "feed.4.notes": "Steamed cauliflower",
-    "feed.5.amount": "1.5 tbsp",
-    "feed.5.notes": "Dry cereal with whole milk",
-    "feed.4.type": "Solid",
-    "feed.2.type": "Solid",
-    "feed.1.type": "Milk",
-    "feed.6.type": "Solid",
-    "feed.extraRows": 1,
-    "feed.6.amount": "2 tbsp",
-    "feed.6.notes": "Mashed potatoes",
-    "feed.7.amount": "1 tbsp",
-    "feed.7.notes": "Ground beef with carrots "
-  }
+  "data": {}
 }
